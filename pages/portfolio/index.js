@@ -1,4 +1,4 @@
-import next from "next";
+import Head from "next/head";
 
 export default function Portfolio(props) {
     const { data } = props;

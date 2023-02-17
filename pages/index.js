@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+// import styles from '../styles/Home.module.css';
+import { Portfolio } from './portfolio/index'
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <h1>My portfolio</h1>
+      < Portfolio/>
       
     </div>
   )
