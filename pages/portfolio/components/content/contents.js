@@ -1,10 +1,16 @@
 import next from "next";
 
-export function Content(props) {
-  const { data } = props;
+import React from 'react';
+// import PropTypes from 'prop-types';
+
+const Contents = () => {
   return (
     <div>
-      <h1>My portfolio</h1>
+      
     </div>
   );
-}
+};
+
+// Contents.propTypes = {};
+
+export default Contents;
