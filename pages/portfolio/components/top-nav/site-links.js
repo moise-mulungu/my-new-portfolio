@@ -1,12 +1,18 @@
 import next from "next";
 
-export function SiteLinks(props) {
-  const { data } = props;
+import React from 'react';
+// import PropTypes from 'prop-types';
+
+const SiteLinks = () => {
   return (
     <div>
-      <h1>My portfolio</h1>
+      
     </div>
   );
-}
+};
+
+// SiteLinks.propTypes = {};
+
+export default SiteLinks;
 
 
