@@ -1,15 +1,17 @@
 // import Head from "next/head";
-import SiteLinks  from "./components/top-nav/site-links";
-import Footer from "./components/footer/footer";
-import Contents from "./components/content/contents";
+import React from "react";
+// import SiteLinks  from "./components/top-nav/site-links";
+// import Footer from "./components/footer/footer";
+// import Contents from "./components/content/contents";
 
 export default function Portfolio() {
 
   return (
     <>
-      <SiteLinks />
+      {/* <SiteLinks />
       <Footer />
-      <Contents />
+      <Contents /> */}
+      <h1>hello!</h1>
     </>
   );
 }
