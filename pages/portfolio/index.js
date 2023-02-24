@@ -1,16 +1,15 @@
 // import Head from "next/head";
 import SiteLinks  from "./components/top-nav/site-links";
-import { Footer } from "./components/footer/footer";
-import Content from "./components/content/contents";
+import Footer from "./components/footer/footer";
+import Contents from "./components/content/contents";
 
-export default function Portfolio(props) {
-  const { data } = props;
+export default function Portfolio() {
 
   return (
     <>
       <SiteLinks />
       <Footer />
-      <Content />
+      <Contents />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import next from "next";
 
-export function Footer(props) {
-  const { data } = props;
+export function Footer() {
+
   return (
     <div>
       <h1>My portfolio</h1>
