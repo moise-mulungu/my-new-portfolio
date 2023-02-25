@@ -4,7 +4,7 @@ import React from "react";
 // import Footer from "./components/footer/footer";
 // import Contents from "./components/content/contents";
 
-export default function Portfolio() {
+export function Portfolio() {
 
   return (
     <>
